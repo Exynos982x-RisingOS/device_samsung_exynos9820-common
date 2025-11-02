@@ -34,3 +34,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/init/init.recovery.exynos9820.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.exynos9825.rc
+
+# RisingOS
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	RisingChipset="Samsung Exynos 9825"
